@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumbh Mela Events</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="kumbh logo image.jpg" alt="Kumbh Logo" height="80">
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="countdown">
+        <h2>📸 Relive the Sacred Moments – Kumbh Mela in Pictures & Videos 🎥</h2>
+        <div id="countdown-timer"></div>
+    </section>
+
+    <section class="live-stream">
+        <h2>Live Streaming</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VyUT2MV0mtg" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section class="media-gallery">
+        <h2>Photos & Videos</h2>
+        <div class="gallery">
+            <img src="kumbh mela gallary.jpg" alt="Kumbh Mela Photo">
+            <img src="kumbh mela gallary 2.jpg" alt="Kumbh Mela Photo">
+            <iframe width="410" height="215" src="https://www.youtube.com/embed/sOL-pazMYZI" frameborder="0" allowfullscreen></iframe>   
+            <iframe width="410" height="215" src="https://www.youtube.com/embed/FrWItqZTq-I?si=1K3K21LFT8RGlKV2" frameborder="0" allowfullscreen></iframe> 
+        </div>
+    </section>
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="image-grid">
+            <img src="kumbh image 1.jpg" alt="Ganga Snan" onclick="openLightbox(this)">
+            <img src="gallary akhanda.jpg" alt="Akhada Procession" onclick="openLightbox(this)">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.9E5SgNnJD305n6NOYgZVoQHaLZ&pid=Api&P=0&h=180" alt="Naga Sadhus" onclick="openLightbox(this)"><br>
+            <p style="font-size:18px;
+                        line-height:1.8;
+                        text-align:justify;
+                        color:#333
+                        font-family:'poppins'">:-The good vs evil battle, salvation and a larger narrative<br> surrounds the significance of the Mahakumbh Mela. <br>From ‘Samudra Manthan’ to the institution of ‘Akharas’ by an <br> eighth-century Hindu philosopher to the 2025 Mahakumbh Mela, <br>let's take a closer look at this auspicious gathering.</p>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Wq-PQSrqDKTbkOFVRqjXKQHaFj&pid=Api&P=0&h=180" alt="Devotees at Kumbh" onclick="openLightbox(this)">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.x-pRnYwrihw1SNaoJ0mpawHaFK&pid=Api&P=0&h=180" alt="Evening Aarti" onclick="openLightbox(this)">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.cp62rnB5hCTvKgju7xuyzAHaEk&pid=Api&P=0&h=180" alt="Tent City" onclick="openLightbox(this)">
+       <p style="font-size:18px;
+       line-height:1.8;
+       text-align:justify;
+       color:#333
+       font-family:'poppins'"`> :- Once every twelve years, a temporary city, sprawling across miles <br> along the confluence of the Ganga and Yamuna rivers, <br>emerges from the riverbed. This vibrant city, a testament to faith,<br> is home to countless grand tents and makeshift structures,<br> accommodating millions of pilgrims from across India. <br>Devotees, carrying their belongings, embark on a journey <br>of faith to immerse themselves in the holy Sangam – the confluence <br>of the Ganga, Yamuna, and the mythical Saraswati rivers.<br> Thousands of visitors reside there to undertake the <br>month-long intense spiritual practice known as ‘The Kalpvas’.</p> 
+        </div>
+    </section>
+    
+    <section class="video-gallery">
+        <h2>Video Gallery</h2>
+        <div class="video-grid">
+            <iframe src="https://www.youtube.com/embed/sOL-pazMYZI" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/66q_cOY0P0o?si=wn5T3rAwTRI8JV_y" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/LALz5pNc8b4?si=89ZNKop0A4X0xFlo" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>
+    <div class="explore-container">
+        <a href="contact.html" class="explore-btn">Explore Now</a>
+    </div>
+ <!-- Footer -->
+ <footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="kumbh logo image.jpg" alt="Kumbh Logo">
+        </div>
+        <div class="footer-links">
+            <a href="kumbh.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="facebook image.jpg" alt="Facebook"></a>
+            <a href="#"><img src="instagrams image.jpg" alt="Instagram"></a>
+            <a href="#"><img src="twittor image.jpg" alt="Twitter"></a>
+            <a href="#"><img src="youtube image.jpg" alt="YouTube"></a>
+        </div>
+        <p class="footer-text">© 2024 Kumbh Mela | All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
